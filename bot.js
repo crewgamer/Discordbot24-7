@@ -52,7 +52,7 @@ client.on("message", function(msg) {
  if(msg.content === prefix + "ping") {
     msg.channel.send(`Pinging...`).then(function(m){
       m.edit(`Pong! took ${m.createdTimestamp - msg.createdTimestamp} ms`)
-    })23
+    })
    }
 
 })
