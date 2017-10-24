@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const prefix = ("!")
 var args = (" ")
 var wordstoecho = (" ")
-client.login("MzcyMDQ0MTUxMzc1NTI3OTM4.DM-coQ.wbQdQ5O1QVFVaJsxI7UEYuQmmqA")
+client.login(process.env.BOT_TOKEN)
 client.on("ready", function() {
   console.log("Ready as: Testingbot3k")
 })
